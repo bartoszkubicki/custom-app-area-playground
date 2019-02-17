@@ -6,6 +6,7 @@ Module provides playground and example for practical usage of custom area code
 ## Features
 * adding custom area code
 * example of custom xml configuration in custom area
+* example of custom front controller for different HTTP request handling
 
 ## Prerequisites
 Magento 2.2 or higher
@@ -46,6 +47,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## TODO
-* add example of custom routing using custom area

@@ -25,7 +25,10 @@
     <type name="Magento\Framework\App\AreaList">
         <arguments>
             <argument name="areas" xsi:type="array">
-                <item name="custom_area" xsi:type="null"/>
+                <!--<item name="custom_area" xsi:type="null"/>-->
+                <item name="custom_area" xsi:type="array">
+                    <item name="frontName" xsi:type="string">customarea</item>
+                </item>
             </argument>
         </arguments>
     </type>

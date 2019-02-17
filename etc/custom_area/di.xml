@@ -17,4 +17,8 @@
     </type>
     <!-- End of plugin section -->
 
+    <!-- API section -->
+    <preference for="Magento\Framework\App\FrontControllerInterface"
+                type="BKubicki\CustomAppAreaPlayground\Controller\CustomFrontController" />
+    <!-- End of API section -->
 </config>
